@@ -7,7 +7,7 @@ const app = express();
 
 // MongoDB connection
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost:27017/todolistDB", {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://admin-gatera:Pr5C6^qL@cluster0-ghxax.mongodb.net/todolistDB", {useNewUrlParser: true, useUnifiedTopology: true});
 
 //DB Schema
 const itemsSchema = new mongoose.Schema ({
